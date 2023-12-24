@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+font-family:"Verdada";
+}
+body{
+	background-color:#EFFFD4;
+	width: 100%;
+}
+header{
+	display:block;
+	margin:0 0.25em;
+}
+#maintitle h1 a{
+	text-decoration: none;
+	color: #000000;
+}
+#maintitle a:hover{
+text-decoration:underline;
+}
+#mainvani a{
+	text-decoration: none;	
+}
+#mainvani a:hover{
+	background-color: rgba(0,147,41,0.50);
+	text-decoration: none;	
+}
+#mainvani ul{
+	width: 65%;
+	border: 1px double  rgba(50,15,16,1.00);
+	background-color:rgba(191,222,208,0.30);
+}
+
+nav#mainvani{
+	display:block;
+	text-align:left;
+	line-height:1.5em;
+}
+
+nav#mainvani li{
+	display:inline;
+	width: auto;
+	height: auto;
+	padding:0px 0px 0px 10px;
+	border-left: 1px dotted #201C1C;
+	}
+#mainvani li a span{
+	display: inline;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+}
+
+#main article{
+	margin-top: 0.5em ;
+	padding: 0.25em 1em;
+	height: auto;
+	background-color: rgba(198,255,0,0.15);
+	border-radius: 10px;
+	border:1px #553233 dotted; 
+}
+
+#main {
+	padding-left: 0.5%;
+	height: auto;
+	width: 75%;
+	float:left;
+}
+#main .flex{
+	display: flex;
+}
+.flex.image{
+	position:relative;
+}
+.flex.text{
+	margin: 20px;
+	padding-left: 20px;
+}
+#main .text{
+	margin-left: 10px;
+}
+
+
+
+
+.content p{
+	margin-left:20px;
+}
+#main li{
+	list-style: none;
+}
+article{
+	height: auto;
+}
+
+.content #eiyo dl{
+	margin: 0 2em ;
+	padding-left:2em;
+	display: flex;
+	flex-wrap: wrap;
+	text-align:center;
+}
+
+.content #eiyo dt{
+	width: 5.5em;
+}
+.content #eiyo dd{
+	width: 4.5em;
+}
+
+.content #allcontens
+{
+	display: block;
+	width: auto;
+	height: 300px;
+	overflow: auto;
+}
+.content a{
+	text-decoration: none;
+	color:rgba(14,6,6,0.89);
+}
+.content a :hover{
+text-decoration:underline;
+}
+.content h3{
+	text-decoration: underline;
+}
+.content #one
+{
+	display: block;
+	width: auto;
+	height:95%;
+	overflow: auto;
+}
+.content .link .image{
+	padding: 0.3em;
+}
+.content li{
+	display: block;
+	width: auto;
+	height: 150px;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.37);
+	border: 1.5px hsla(255,100%,30%,0.70) dotted;
+}
+.content li a{
+	padding: 0.5em;
+	width: auto;
+	display: flex;
+	text-decoration-line: none;
+	text-decoration-color: black;
+}
+.content li a .text{
+	margin: 0.5em ;
+}
+
+#sub{
+	margin-right: 0.75%;
+	display: block;
+	height:auto;
+	width: 20%;
+	float:right;
+	background-color: rgba(0,26,179,0.25);
+	border-radius: 7px;
+	border: 2px #643031 double;
+}
+#sub h3{
+	padding: 5px 0.5em 0 ;
+}
+#sub #tag{
+	padding-left: 1em;
+}
+#sub a{
+	text-decoration: none;
+}
+#sub a:hover{
+	text-decoration:underline;
+
+}
+#sub ul{
+  padding-left:1em;
+}
+#sub li{
+  list-style:none;
+}
+
+
+
+
+footer{
+	clear: both;/*ここでclearでfloat解除*/
+	display: block;
+	color:both ;
+	background-color: cornsilk;
+	font-size: medium;
+	text-align:center;
+	line-height:1.5em;
+	border-top:2px #ccc dotted; 
+}
